@@ -5,14 +5,15 @@ namespace Fibonacci.ConsoleApp
 {
     internal class Program
     {
+        private const string ExitString = "X";
         private static void Main(string[] args)
         {
             while (true)
             {
-                Console.WriteLine("Get which position in the Fibonacci sequence (Type 'exit' to finish): ");
+                Console.WriteLine("Get which position in the Fibonacci sequence (Type 'X' to finish) : ");
                 var positionString = Console.ReadLine();
 
-                if (positionString == null || positionString.ToUpper() == "EXIT")
+                if (positionString == null || positionString.ToUpper() == "X")
                     break;
 
                 var seqNumber = FibonacciGenerator.GetNumberInNPositonOfSequence(positionString);
