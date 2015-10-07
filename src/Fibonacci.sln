@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.ConsoleApp", "Fibonacci.ConsoleApp\Fibonacci.ConsoleApp.csproj", "{977CC210-4888-4B7D-9625-F9712FFA3393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Generator", "Fibonacci.Generator\Fibonacci.Generator.csproj", "{7A9C318A-9947-4052-B697-381A83139FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Generator.Tests", "Fibonacci.Generator.Tests\Fibonacci.Generator.Tests.csproj", "{BBB2F951-6206-47E0-9D3E-531D6075E648}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{977CC210-4888-4B7D-9625-F9712FFA3393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977CC210-4888-4B7D-9625-F9712FFA3393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977CC210-4888-4B7D-9625-F9712FFA3393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977CC210-4888-4B7D-9625-F9712FFA3393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9C318A-9947-4052-B697-381A83139FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9C318A-9947-4052-B697-381A83139FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9C318A-9947-4052-B697-381A83139FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9C318A-9947-4052-B697-381A83139FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB2F951-6206-47E0-9D3E-531D6075E648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB2F951-6206-47E0-9D3E-531D6075E648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB2F951-6206-47E0-9D3E-531D6075E648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB2F951-6206-47E0-9D3E-531D6075E648}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
