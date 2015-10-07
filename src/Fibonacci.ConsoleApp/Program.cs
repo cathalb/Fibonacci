@@ -7,21 +7,25 @@ namespace Fibonacci.ConsoleApp
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Get which position in the Fibonacci sequence : ");
-            var positionString = Console.ReadLine();
-
-            var seqNumber = FibonacciGenerator.GetNumberInNPositonOfSequence(positionString);
-
-            if (seqNumber == -1)
+            while (true)
             {
-                Console.WriteLine("The value '{0}' you entered was invalid!", positionString);
-            }
-            else
-            {
-                Console.WriteLine("The {0} number in the Fibonacci Sequence is : = {1}", positionString, seqNumber);
-            }
+                Console.WriteLine("Get which position in the Fibonacci sequence (Type 'exit' to finish): ");
+                var positionString = Console.ReadLine();
 
-            Console.ReadKey();
+                if (positionString == null || positionString.ToUpper() == "EXIT")
+                    break;
+
+                var seqNumber = FibonacciGenerator.GetNumberInNPositonOfSequence(positionString);
+
+                if (seqNumber == -1)
+                {
+                    Console.WriteLine("The value '{0}' you entered was invalid!", positionString);
+                }
+                else
+                {
+                    Console.WriteLine("The {0} number in the Fibonacci Sequence is : = {1}", positionString, seqNumber);
+                }
+            }
         }
     }
 }
